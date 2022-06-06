@@ -1,0 +1,68 @@
+{
+    "uuid": "cff498c3-f845-4974-aa00-61437e234daf",
+    "lastMigration": 20,
+    "name": "PAYG",
+    "endpointPrefix": "",
+    "latency": 0,
+    "port": 3001,
+    "hostname": "0.0.0.0",
+    "routes": [
+        {
+            "uuid": "4701a50d-f6e5-40cd-ad6e-cf89c9a01cbe",
+            "documentation": "",
+            "method": "get",
+            "endpoint": "ads/legacy_ad_id/1257413051",
+            "responses": [
+                {
+                    "uuid": "f47c8ab7-fa1e-4f29-962d-b857f06ac119",
+                    "body": "{\n  \"ad_id\": 1123\n  \"data\" {\n    \"list_id\": 4321,\n    \"product\": \"gallery\"\n  }\n  \n}",
+                    "latency": 0,
+                    "statusCode": 200,
+                    "label": "",
+                    "headers": [],
+                    "filePath": "",
+                    "sendFileAsBody": false,
+                    "rules": [],
+                    "rulesOperator": "OR",
+                    "disableTemplating": false,
+                    "fallbackTo404": false,
+                    "default": true
+                }
+            ],
+            "enabled": true,
+            "randomResponse": false,
+            "sequentialResponse": false
+        }
+    ],
+    "proxyMode": false,
+    "proxyHost": "",
+    "proxyRemovePrefix": false,
+    "tlsOptions": {
+        "enabled": false,
+        "type": "CERT",
+        "pfxPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "caPath": "",
+        "passphrase": ""
+    },
+    "cors": true,
+    "headers": [
+        {
+            "key": "Content-Type",
+            "value": "application/json"
+        }
+    ],
+    "proxyReqHeaders": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ],
+    "proxyResHeaders": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ]
+}
